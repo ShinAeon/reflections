@@ -15,6 +15,9 @@ By only adding the files you want to commit to the staging area.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches would help keep history organized with multiple developers or multiple changes worked in parallel
+by isolating those changes from other branches.
+
 
 How do the diagrams help you visualize the branch structure?
 
