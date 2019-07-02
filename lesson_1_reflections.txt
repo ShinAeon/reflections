@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Viewing the diff between two files helped find the bug by isolating the differences 
+    between the two files and limiting the scope of muy search to just items I could be sure had changed.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Yes, considerably more efficient.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: 
+      Changes are meaningful, where autosave is unlikely to produce versions that are functional
+      Developer is in control of when commits occur
+      Autosave would preclude things like commit messages that explain the changes in the version
+    Cons:
+      Prone to user error - you can easily forget to commit
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because version control systems are typically designed with code in mind, and software frequently uses
+    multiple files that work tightly together or are somehow interrelated
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log allows you to see the revision history of the file
+    git diff allows you to see the changes between two revisions
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If a change breaks something it's easy to determine when the bug was introduced and use diff to 
+    find the changes associated with the bug. Additionally; in a production environment with multiple coders
+    if a bug causes problems for other developers it's easy to simply revert to the previous version until 
+    the bug can be fixed.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Personal prjects and classroom assignments
