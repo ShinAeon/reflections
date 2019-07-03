@@ -24,6 +24,15 @@ Diagramming helps to keep track of the nonlinear branch structure used by Git
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+merging two branches together incorporates the changes from both branches into one branch.
+We represent it like a tree in a diagram because it's intuitive
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Pros:
+Git's automatic merging makes the simplifies the tediousness of merging simple changes in a files
+Automatic merging also makes isolating conflicts easier when a manual merge is necessary
+
+Cons:
+Automatic merge isn't bullet proof
+Automatic merge can't always figure things out so you'll sitll have some manual stuff to do
