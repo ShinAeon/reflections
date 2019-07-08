@@ -30,4 +30,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When multiple developers are working within the same code base working in a separate brance safely isolates 
+    each developer's code changes from one another until they are ready to be a part of the stable code base.
+    Too, the use of separate branches allows for fast context switching when developing multiple features in 
+    parallel.
